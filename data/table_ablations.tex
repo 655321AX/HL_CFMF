@@ -1,0 +1,23 @@
+\begin{table}
+\caption{Ablation study: test MAE (eV).}
+\label{tab:ablations}
+\begin{tabular}{lllrr}
+\toprule
+ &  & target & homo & lumo \\
+ablation & variant & n\_features &  &  \\
+\midrule
+\multirow[t]{4}{*}{descriptors} & full162 & 162 & 0.1207 & 0.1254 \\
+\cline{2-5}
+ & no\_electronic & 122 & 0.1238 & 0.1375 \\
+\cline{2-5}
+ & no\_fr & 109 & 0.1220 & 0.1278 \\
+\cline{2-5}
+ & old20 & 15 & 0.1619 & 0.2080 \\
+\cline{1-5} \cline{2-5}
+\multirow[t]{2}{*}{fingerprint} & min1 & 161375 & 0.1073 & 0.1064 \\
+\cline{2-5}
+ & min10 & 13749 & 0.1071 & 0.1054 \\
+\cline{1-5} \cline{2-5}
+\bottomrule
+\end{tabular}
+\end{table}

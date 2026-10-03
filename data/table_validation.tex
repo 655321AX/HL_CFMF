@@ -1,0 +1,45 @@
+\begin{table}
+\caption{Removal and sufficiency tests (LightGBM, CF-MF).}
+\label{tab:validation}
+\begin{tabular}{llrrrrr}
+\toprule
+ &  & n & shap\_median & removal\_median & sufficiency\_r & agreement \\
+target & group &  &  &  &  &  \\
+\midrule
+\multirow[t]{16}{*}{HOMO} & nitrile & 407 & -0.558 & -0.613 & 0.419 & 1.098 \\
+ & pyridine-type N & 354 & -0.189 & -0.017 & 0.217 & 0.091 \\
+ & epoxide & 210 & -0.103 & -0.140 & 0.141 & 1.365 \\
+ & carbonyl C=O & 1071 & -0.044 & -0.069 & 0.164 & 1.547 \\
+ & furan-type O & 182 & -0.038 & 0.004 & 0.379 & -0.093 \\
+ & alkyne & 418 & -0.024 & -0.017 & 0.130 & 0.681 \\
+ & imine & 373 & -0.020 & -0.131 & 0.230 & 6.416 \\
+ & alcohol OH & 848 & -0.000 & -0.032 & 0.238 & 108.575 \\
+ & ether O & 1001 & 0.056 & 0.044 & 0.118 & 0.789 \\
+ & tertiary amine & 406 & 0.175 & 0.075 & 0.294 & 0.427 \\
+ & aziridine & 434 & 0.187 & 0.035 & 0.034 & 0.187 \\
+ & alkene & 368 & 0.189 & 0.334 & 0.227 & 1.768 \\
+ & secondary amine & 334 & 0.277 & 0.044 & 0.462 & 0.157 \\
+ & phenol OH & 86 & 0.325 & 0.249 & 0.072 & 0.766 \\
+ & pyrrole-type NH & 166 & 0.334 & 0.150 & 0.447 & 0.447 \\
+ & primary amine & 185 & 0.663 & 0.344 & 0.596 & 0.519 \\
+\cline{1-7}
+\multirow[t]{16}{*}{LUMO} & carbonyl C=O & 1071 & -1.157 & -1.543 & 0.741 & 1.334 \\
+ & nitrile & 407 & -0.774 & -0.587 & 0.465 & 0.758 \\
+ & imine & 373 & -0.715 & -0.421 & 0.246 & 0.589 \\
+ & alkene & 368 & -0.652 & -1.338 & 0.522 & 2.053 \\
+ & alkyne & 418 & -0.475 & -0.831 & 0.408 & 1.748 \\
+ & pyridine-type N & 354 & -0.386 & -0.073 & 0.306 & 0.190 \\
+ & epoxide & 210 & -0.120 & -0.139 & 0.397 & 1.158 \\
+ & furan-type O & 182 & -0.099 & -0.036 & 0.497 & 0.367 \\
+ & aziridine & 434 & -0.090 & -0.067 & 0.237 & 0.744 \\
+ & ether O & 1001 & -0.081 & -0.033 & 0.013 & 0.403 \\
+ & alcohol OH & 848 & -0.080 & -0.146 & 0.145 & 1.815 \\
+ & phenol OH & 86 & -0.059 & 0.271 & 0.314 & -4.577 \\
+ & tertiary amine & 406 & -0.006 & 0.000 & -0.093 & -0.000 \\
+ & secondary amine & 334 & 0.004 & 0.000 & 0.033 & 0.000 \\
+ & primary amine & 185 & 0.094 & 0.196 & -0.044 & 2.075 \\
+ & pyrrole-type NH & 166 & 0.232 & 0.123 & 0.221 & 0.532 \\
+\cline{1-7}
+\bottomrule
+\end{tabular}
+\end{table}

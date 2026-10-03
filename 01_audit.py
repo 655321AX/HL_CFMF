@@ -1,4 +1,4 @@
-#read-only inspection of the raw QM9 file.
+#01_audit - read-only inspection of the raw QM9 file.
 import numpy as np
 import pandas as pd
 from rdkit import Chem, RDLogger

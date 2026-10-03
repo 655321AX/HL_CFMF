@@ -1,0 +1,30 @@
+\begin{table}
+\caption{Median per-molecule group contribution (eV), three methods.}
+\label{tab:groups}
+\begin{tabular}{lrrrrrr}
+\toprule
+target & \multicolumn{3}{r}{HOMO} & \multicolumn{3}{r}{LUMO} \\
+method & LightGBM CF-MF & RF fr\_* counts & Ridge CF-MF & LightGBM CF-MF & RF fr\_* counts & Ridge CF-MF \\
+group &  &  &  &  &  &  \\
+\midrule
+alcohol OH & -0.000 & -0.084 & 0.010 & -0.080 & -0.003 & -0.102 \\
+alkene & 0.189 & NaN & 0.088 & -0.652 & NaN & -0.496 \\
+alkyne & -0.024 & -0.124 & -0.082 & -0.475 & -0.386 & -0.468 \\
+aromatic N & NaN & 0.132 & NaN & NaN & -0.310 & NaN \\
+aziridine & 0.187 & NaN & 0.090 & -0.090 & NaN & -0.103 \\
+carbonyl C=O & -0.044 & -0.138 & -0.029 & -1.157 & -1.246 & -1.225 \\
+epoxide & -0.103 & -0.114 & -0.126 & -0.120 & -0.003 & -0.077 \\
+ether O & 0.056 & -0.040 & 0.041 & -0.081 & 0.004 & -0.052 \\
+fluoride & NaN & NaN & -0.205 & NaN & NaN & -0.288 \\
+furan-type O & -0.038 & NaN & 0.029 & -0.099 & NaN & -0.044 \\
+imine & -0.020 & -0.065 & -0.091 & -0.715 & -0.496 & -0.790 \\
+nitrile & -0.558 & -0.635 & -0.656 & -0.774 & -0.524 & -0.895 \\
+phenol OH & 0.325 & 0.280 & 0.490 & -0.059 & -0.095 & -0.165 \\
+primary amine & 0.663 & 0.092 & 0.685 & 0.094 & -0.112 & -0.039 \\
+pyridine-type N & -0.189 & NaN & -0.404 & -0.386 & NaN & -0.760 \\
+pyrrole-type NH & 0.334 & NaN & 0.369 & 0.232 & NaN & 0.298 \\
+secondary amine & 0.277 & 0.024 & 0.275 & 0.004 & -0.151 & -0.072 \\
+tertiary amine & 0.175 & 0.048 & 0.235 & -0.006 & -0.104 & -0.046 \\
+\bottomrule
+\end{tabular}
+\end{table}

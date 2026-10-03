@@ -1,0 +1,51 @@
+{
+ "cfmf_ridge": {
+  "features": {
+   "min_count": 1,
+   "max_radius": 2,
+   "binary": false
+  },
+  "homo": {
+   "alpha": 1.0
+  },
+  "lumo": {
+   "alpha": 0.3
+  }
+ },
+ "desc_rf": {
+  "homo": {
+   "min_samples_leaf": 1,
+   "max_samples": null,
+   "max_features": 0.7,
+   "max_depth": 25
+  },
+  "lumo": {
+   "min_samples_leaf": 1,
+   "max_samples": null,
+   "max_features": 0.7,
+   "max_depth": 25
+  }
+ },
+ "cfmf_lgbm": {
+  "features": {
+   "min_count": 10,
+   "max_radius": 2,
+   "binary": false
+  },
+  "search_learning_rate": 0.1,
+  "homo": {
+   "subsample": 0.85,
+   "reg_lambda": 5,
+   "num_leaves": 255,
+   "min_child_samples": 10,
+   "colsample_bytree": 1.0
+  },
+  "lumo": {
+   "subsample": 1.0,
+   "reg_lambda": 1,
+   "num_leaves": 255,
+   "min_child_samples": 10,
+   "colsample_bytree": 0.7
+  }
+ }
+}

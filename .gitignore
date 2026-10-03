@@ -1,0 +1,17 @@
+# raw data — download from figshare
+qm9.csv
+data/uncharacterized.txt
+
+# reproducible artifacts (15 GB of models)
+models/
+data/*.parquet
+!data/group_shap_*.parquet
+data/*.npz
+data/splits.json
+data/morgan_selected.json
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
